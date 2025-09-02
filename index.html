@@ -1,26 +1,23 @@
-<!doctype html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Entregable1 - Simulador de Tienda</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-  <h1>Simulador de Tienda - Entregable 1</h1>
+  <h1>📌 Mis Notas</h1>
 
-  <!-- Idea general del simulador (1-2 párrafos) -->
-  <p>
-    Este simulador permite a un usuario registrar productos en un carrito,
-    calcular totales y ver un resumen. La interacción principal se realiza
-    mediante la Consola JS y cuadros de diálogo (prompt / confirm / alert).
-  </p>
-  <p>
-    El objetivo es integrar variables, arrays, objetos, funciones, condicionales
-    y bucles. El HTML sólo contiene la descripción y el enlace para iniciar el
-    simulador (la lógica está en el archivo JS).
-  </p>
+  <form id="notaForm">
+    <input type="text" id="nombre" placeholder="Nombre de nota" required>
+    <input type="text" id="nota" placeholder="Escribe una nota" required>
+    <button type="submit">Guardar Nota</button>
+  </form>
 
-  <button id="btnIniciar">Iniciar simulador (abrir consola)</button>
+  <h2>Notas guardadas:</h2>
+  <ul id="listaNotas"></ul>
 
   <script src="app.js"></script>
 </body>

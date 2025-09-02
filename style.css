@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ffcdcd;
+  padding: 20px;
+}
+
+h1 {
+  color: #9b2d2d;
+}
+h2{
+    color: #9b2d2d;
+}
+
+form #nota-form {
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input{
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 300px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+    border-color: #9b2d2d;
+}
