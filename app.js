@@ -51,3 +51,4 @@ function eliminarNota(index) {
   localStorage.setItem("notas", JSON.stringify(notas));
   mostrarNotas();
 }
+
