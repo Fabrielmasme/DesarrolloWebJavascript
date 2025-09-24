@@ -3,25 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Pagina</title>
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  
-  <h1>📌 Mis Notas</h1>
 
-  <form id="notaForm">
-    <input type="text" id="nombre" placeholder="Nombre de nota" required>
-    <input type="text" id="nota" placeholder="Escribe una nota" required>
-    <button type="submit">Guardar Nota</button>
-  </form>
+  <h1>Librería</h1>
 
-  <h2>Notas guardadas:</h2>
-  <ul id="listaNotas"></ul>
+  <h2>Lista de libros disponibles: </h2>
+  <div id="lista-inicial"></div>
 
-  <script src="app.js" type="module"></script>
-  <script src="notificacion.js" type="module"></script>
+  <div class="carrito">
+    <h2>🛒 Carrito</h2>
+    <div id="carrito"></div>
+    <button onclick="finalizarCompra()">Finalizar Compra</button>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
